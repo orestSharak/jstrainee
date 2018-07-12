@@ -1,1 +1,1 @@
-Fast shot
+Fast shot :)
