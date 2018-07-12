@@ -1,1 +1,1 @@
-Fast shoе
+Fast shot
