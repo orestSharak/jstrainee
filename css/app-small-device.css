@@ -1,0 +1,21 @@
+.wrapper {
+    padding-left: 60px !important;
+}
+
+.first-banner-text h2,
+.date-block {
+    font-size: var(--1rem-font-size);
+    left: -5%;
+}
+
+.wrapper h1,
+.footer-text {
+    font-size: var(--1rem-font-size);
+}
+
+.social-block {
+    margin-bottom: 10px;
+}
+.log-17{
+    width: 300px;
+}

@@ -1,0 +1,127 @@
+
+:root {
+    --blue-color: #202545;
+    --white-color: white;
+    --1rem-font-size: 1rem;
+    --15rem-font-size: 1.5rem;
+    --2rem-font-size: 2rem;
+    --25rem-font-size: 2.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto sans-serif;
+}
+
+/*---------------------------------------------------*/
+
+.first-banner {
+    height: 100vh;
+}
+
+.first-banner-text h2 {
+    text-transform: uppercase;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 5px 15px;
+    font-size: var(--2rem-font-size);
+}
+
+.logo {
+    width: 80px;
+    margin-top: 40px;
+}
+
+.log-17 {
+    width: 350px;
+}
+
+.chevron-down {
+    color: var(--white-color);
+    background: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.image-full-width {
+    width: 100%;
+    height: auto;
+}
+
+.image-video {
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+.play-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 2vw;
+}
+.play-img:before{
+    font-size: 3rem;
+}
+
+.wrapper {
+    padding-left: 80px !important;
+    padding-top: 20px;
+    border-left: 3px solid #dddddd;
+}
+
+.wrapper h1, .wrapper p {
+    color: var(--blue-color);
+}
+
+.wrapper h1 {
+    font-size: var(--25rem-font-size);
+    font-weight: bolder;
+}
+
+.date-block {
+    position: absolute;
+    top: 20px;
+    left: -3%;
+    text-align: center;
+    color: red;
+    width: 40px;
+    background: var(--white-color);
+    font-size: var(--2rem-font-size);
+    font-weight: bolder;
+}
+
+/*---------------  footer  ------------------------*/
+
+.footer {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.footer-text {
+    margin: 70px 0;
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: var(--2rem-font-size);
+}
+
+.social-block {
+    margin-bottom: 80px;
+}
+
+.social-btn {
+    color: white;
+    padding: 0 10px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.footer-copyright {
+    padding: 30px 0;
+    font-size: var(--1rem-font-size);
+}
